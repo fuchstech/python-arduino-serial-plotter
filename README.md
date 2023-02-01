@@ -10,7 +10,10 @@ Before writing a guidence or detection algorithm be sure your data are accurate 
 #### Acceleration data on X axises of two imus and average
 <img src="images/twompuaverage.png" width="800">
 
-##### to run the code you need to download  [AdafruitMPU6050](https://github.com/adafruit/Adafruit_MPU6050) library and install python libraries
+##### to run the code you need to download [AdafruitMPU6050](https://github.com/adafruit/Adafruit_MPU6050) library and install python libraries
 ```
 pip3 install -r requirements.txt
+python3 plotter.py
 ```
+#### The python code shows realtime serial data with matplotlib. 
+<img src="images/plotter.png" width="800">
